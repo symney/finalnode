@@ -1,0 +1,34 @@
+----------------Issues-------------------------------------------------------
+-change swift get requests to send token as a header
+--change swift code to pardse the new login json with the jwt token
+--swift dispaly error messages on login
+-change json class in swift to include token string
+--change create result json to accept the new error class and the new token class for accepting tokens
+--make logout delete token(mobile)
+--make search in client when creating chats a get request with query parameters
+
+--socket security
+--make logout delete token(desktop)
+--CHANGE IPS AND CHANGE ROUTES TO DIRNAME
+-destroy tokens on logout or implement(still sign in as user system)
+
+--add pics array to existing accounts in database
+
+
+--------------Development steps----------------------------------------------
+work on websockets
+security in websockets
+create chat folder in websockets 
+set security system for express static
+
+websocket msg object only needs to send 
+    time
+    sender
+    chat
+    
+the server needs to distinguish between images videos and other types of documents
+
+
+
+
+
